@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $('.slider').bxSlider({
+    auto:true
+  });
+  $('#main_menu').meanmenu({
+    meanMenuContainer:'#mobile_menu',
+    meanScreenWidth:991,
+  });
+});
